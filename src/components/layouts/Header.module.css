@@ -1,0 +1,81 @@
+.header {
+  position: fixed;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  padding: 2rem 0 0 0;
+  transition: all 0.4s ease;
+  border-top:3px solid #1D3557;
+  z-index:999;
+}
+.header h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: 900;
+}
+
+.header h1 a {
+  color: #1D3557;
+}
+
+.header__fixed {
+  position: fixed;
+  justify-content: space-between;
+  background-color: #e63946;
+  width: 100%;
+  z-index:999;
+  transition: all 0.4s ease;
+  -moz-box-shadow: 0 0 32px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 0 32px rgb(0 0 0 / 25%);
+    box-shadow: 0 0 32px rgb(0 0 0 / 25%);
+}
+
+.header__fixed h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 900;
+}
+
+.header__fixed h1 a {
+  color: #f1faee;
+}
+
+.headerline {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerline {
+  width: 1200px;
+}
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+  .headerline {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .headerline {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .headerline {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .headerline {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 281px) {
+  .headerline {
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .headerline {
+    width: 99%;
+  }
+}
