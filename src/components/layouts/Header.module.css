@@ -1,81 +1,69 @@
-.header {
-  position: fixed;
-  justify-content: space-between;
-  background-color: transparent;
+.siteHeader {
+  margin: 0;
+  padding: 0;
+}
+.siteHeader .topFull {
+  background: #fff;
+  position: relative;
+}
+
+.siteHeader .topFull:before {
+  background-size: 25px 10px, 5px 5px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
   width: 100%;
-  padding: 2rem 0 0 0;
-  transition: all 0.4s ease;
-  border-top:3px solid #1D3557;
-  z-index:999;
-}
-.header h1 {
-  font-size: 3.5rem;
-  line-height: 4rem;
-  font-weight: 900;
+  background-image: linear-gradient(90deg, #1c4e86 2px, transparent 2px),
+    linear-gradient(90deg, #1c4e86 2px, transparent 2px);
+  background-image: -ms-linear-gradient(90deg, #1c4e86 1px, transparent 1px),
+    -ms-linear-gradient(90deg, #1c4e86 1px, transparent 1px);
 }
 
-.header h1 a {
-  color: #1D3557;
+.siteHeader .topFull .topRow {
+  padding: 1em 1em 0.5rem 1rem; 
+  font-size:0.9rem;
 }
 
-.header__fixed {
-  position: fixed;
-  justify-content: space-between;
-  background-color: #e63946;
-  width: 100%;
-  z-index:999;
-  transition: all 0.4s ease;
-  -moz-box-shadow: 0 0 32px rgba(0,0,0,.25);
-    -webkit-box-shadow: 0 0 32px rgb(0 0 0 / 25%);
-    box-shadow: 0 0 32px rgb(0 0 0 / 25%);
+.phoneNumber {
+    color:#1c4e86;
+    flex:1;
 }
 
-.header__fixed h1 {
-  font-size: 3rem;
-  line-height: 4rem;
-  font-weight: 900;
+.discountNews {
+    flex:1;
+    text-align: center;
+    color: #505050;
+}
+.discountNews span {
+    color: red;
+   
+}
+.other {
+    flex: 1;
+    text-align: right;
 }
 
-.header__fixed h1 a {
-  color: #f1faee;
+.siteHeader .topFull .header {
+    background-color: #FAFAFA;
 }
-
 .headerline {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+    min-height: 100px;
+}
+.headerline .logo {
+    padding:0rem 1rem 0 2rem;
+    font-size:2rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
-.headerline {
-  width: 1200px;
+.headerline .logo a {
+    color: #1c4e86;
 }
-@media only screen and (max-width: 1399px) and (min-width: 1200px) {
-  .headerline {
-    width: 99%;
-  }
-}
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
-  .headerline {
-    width: 99%;
-  }
-}
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-  .headerline {
-    width: 99%;
-  }
-}
-@media only screen and (max-width: 767px) and (min-width: 576px) {
-  .headerline {
-    width: 99%;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 281px) {
-  .headerline {
-    width: 99%;
-  }
-}
-@media only screen and (max-width: 280px) {
-  .headerline {
-    width: 99%;
-  }
+.headerline .logo a:hover {
+    color: #2c2d33;
 }
