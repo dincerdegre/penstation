@@ -1,0 +1,82 @@
+.customerBlock {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px dashed #1c4e86;
+  border-radius: 0.5rem;
+}
+.customerBlock:hover {
+    cursor: pointer;
+}
+.customerBlock .service {
+  color: #333;
+  padding: 1rem 0;
+  border-right: 1px dashed #1c4e86;
+  flex: 1;
+  justify-content: center;
+}
+.customerBlock div:nth-child(4) {
+  border: none;
+}
+.serviceIcon {
+  background: url(../../../assets/icons/icons.png) no-repeat scroll #f0f0f0;
+  float: left;
+  margin-top: 0px;
+  height: 58px;
+  width: 58px;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border-radius: 1rem;
+}
+.service:hover .serviceIcon {
+  background-color: #1c4e86;
+}
+
+.serviceTexts {
+  padding-left: 1rem;
+}
+.serviceTexts .headText {
+  font-weight: 700;
+}
+
+.service:hover .serviceTexts .headText {
+  color: #1c4e86;
+}
+
+.icon1 {
+  background-position: center 17px;
+}
+
+.service:hover .icon1 {
+  background-position: center -50px;
+}
+
+.icon2 {
+  background-position: center -118px;
+}
+
+.service:hover .icon2 {
+  background-position: center -186px;
+}
+
+.icon3 {
+  background-position: center -322px;
+}
+
+.service:hover .icon3 {
+  background-position: center -255px;
+}
+
+.icon4 {
+  background-position: center -457px;
+}
+
+.service:hover .icon4 {
+  background-position: center -391px;
+}
