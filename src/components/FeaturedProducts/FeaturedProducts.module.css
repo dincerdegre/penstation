@@ -1,0 +1,49 @@
+.products {
+    padding:2rem 0;
+}
+
+.products h2 {
+    font-size: 2rem;
+    padding-bottom:1rem;
+    margin-bottom: 0;
+    position: relative;
+}
+.products h2:hover::before {
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 130px;
+}
+.products h2::before {
+    content: "";
+    border-bottom: 3px solid #1D3557;
+    position: absolute;
+    width: 70px;
+    top: 45px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.forward {
+    cursor: pointer;
+    margin-bottom:2rem;
+}
+.sliderContainer {
+    width: 1260px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sliderWrapper {
+display: flex;
+flex-wrap: wrap;
+width:8000px;
+transition: all 200ms ease 0s;
+}
+.sliderItem {
+    background-color: #1D3557;
+    color: white;
+    text-align: center;
+    margin:0 5px;
+}
