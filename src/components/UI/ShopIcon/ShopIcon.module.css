@@ -1,0 +1,10 @@
+.cartStyle {
+  width: 1.8rem;
+  display: inline-block;
+  position: relative;
+  color: #1c4e86;
+  cursor:pointer
+}
+.cartStyle:hover {
+  color:#2d74c5;
+}
