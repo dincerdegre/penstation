@@ -1,64 +1,38 @@
-.productsWrapper {
-    margin:0 auto;
-    padding:1rem 0 2rem 0;
-    width:1200px;
-    display:flex;
-    justify-content:space-between;
+.products {
+  padding: 2rem 0;
 }
-
-.productItem {
-    width:24%;
-    background-color: #f7f7f7;
+.products h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+  position: relative;
 }
-.productItem__image {
-    width: 100%;
-    height:20rem;
-    position: relative;
-    overflow: hidden;
+.products h2:hover::before {
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 130px;
 }
-.productItem__image span {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+.products h2::before {
+  content: "";
+  border-bottom: 3px solid #1d3557;
+  position: absolute;
+  width: 70px;
+  top: 45px;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
-.productItem__image img {
-    width: 100%;
-    vertical-align:middle;
+.productsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.productItem__info {
-    padding:1rem;
-    display: flex;
-    justify-content: space-between;
+.sliderItem {
+  text-align: center;
+  padding: 10px 5px;
+  box-sizing: border-box;
 }
-
-@media only screen and (max-width: 1399px) and (min-width: 1200px) {
-    .productsWrapper {
-      width: 1199px;
-    }
-  }
-  @media only screen and (max-width: 1199px) and (min-width: 992px) {
-    .productsWrapper {
-      width: 99%;
-    }
-  }
-  @media only screen and (max-width: 991px) and (min-width: 768px) {
-    .productsWrapper {
-      width: 99%;
-    }
-  }
-  @media only screen and (max-width: 767px) and (min-width: 576px) {
-    .productsWrapper {
-      width: 99%;
-    }
-  }
-  @media only screen and (max-width: 575px) and (min-width: 281px) {
-    .productsWrapper {
-      width: 99%;
-    }
-  }
-  @media only screen and (max-width: 280px) {
-    .productsWrapper {
-      width: 99%;
-    }
-  }
-  
