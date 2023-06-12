@@ -1,0 +1,108 @@
+.promoBannerWrapper {
+    margin:0 auto;
+    padding:2rem 0 2rem 0;
+    width:1200px;
+    display:flex;
+    justify-content:space-between;
+    z-index:90;
+}
+
+.promoBannerContainer {
+    width:31%;
+    background-color: brown;
+}
+
+.promoBannerFull {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.promoBanner a {
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+}
+.promoBannerFull a img {
+    width:110%;
+    display: block;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+
+.promoBannerFull:hover a img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -moz-transform: scale(1.1); } 
+
+.promoBannerFull .textRight {
+    position: absolute;
+    left: auto;
+    right: 0px;
+    top: 50px;
+    bottom: auto;
+    text-align: right;
+}
+
+.promoBannerFull .textCenter {
+    position: absolute;
+    left: 0px;
+    right: auto;
+    top: 50px;
+    bottom: auto;
+    text-align: center;
+}
+
+.promoBannerFull .textLeft {
+    position: absolute;
+    left: 0px;
+    right: auto;
+    top: 50px;
+    bottom: auto;
+    text-align: left;
+}
+.promoDescription {
+    background-color: #E63946;
+    padding:0.5rem 1rem;
+    color:#fff;
+    display: inline-block;
+}
+
+.promoTitle {
+    background-color: #1D3557;
+    padding:0.3rem 1.5rem;
+    font-size:3rem;
+    color:#fff;
+    display: inline-block;
+}
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+    .promoBannerWrapper {
+      width: 1199px;
+    }
+  }
+  @media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .promoBannerWrapper {
+      width: 99%;
+    }
+  }
+  @media only screen and (max-width: 991px) and (min-width: 768px) {
+    .promoBannerWrapper {
+      width: 99%;
+    }
+  }
+  @media only screen and (max-width: 767px) and (min-width: 576px) {
+    .promoBannerWrapper {
+      width: 99%;
+    }
+  }
+  @media only screen and (max-width: 575px) and (min-width: 281px) {
+    .promoBannerWrapper {
+      width: 99%;
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    .promoBannerWrapper {
+      width: 99%;
+    }
+  }
+  
