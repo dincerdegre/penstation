@@ -2,10 +2,34 @@ body {
   background-color: #F1FAEE;
 }
 
-@media only screen and (max-width: 1399px) and (min-width: 1200px) {
- 
+.none {
+  display: none;
 }
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+.row {
+  margin: 0 auto;
+  padding: 0;
+  width: 1260px;
+  position: relative;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1259px) and (min-width: 1140px) {
+  .row {
+    margin: 0 auto;
+    padding: 0;
+    width: 1140px;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 1139px) and (min-width: 992px) {
 
 }
 @media only screen and (max-width: 991px) and (min-width: 768px) {
