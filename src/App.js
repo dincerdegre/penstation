@@ -1,9 +1,8 @@
 import './App.css';
 import {Route, Routes} from 'react-router-dom';
 import Header from './components/layouts/Header';
-import Main from './components/MainPage/Main';
-import About from './components/About';
-import Products from './components/Products';
+import Main from './pages/Main/Main';
+import Footer from './components/layouts/Footer';
 
 function App() {
   return (
@@ -11,9 +10,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Products />} />
+        {/* <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} /> */}
       </Routes>
+      <Footer />
     </div>
   );
 }

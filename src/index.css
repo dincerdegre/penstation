@@ -1,18 +1,24 @@
 @font-face {
-  font-family: 'Roboto';
-  src: local('Roboto'), url(../src/assets/fonts/Roboto-Regular.ttf) format('truetype');
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url(../src/assets/fonts/OpenSans-Regular.ttf) format('truetype');
   font-weight: normal;
 }
 @font-face {
-  font-family: 'Roboto';
-  src: local('Roboto'), url(../src/assets/fonts/Roboto-Bold.ttf) format('truetype');
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url(../src/assets/fonts/OpenSans-Medium.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url(../src/assets/fonts/OpenSans-Bold.ttf) format('truetype');
   font-weight: 900;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  font-family: 'Open Sans',-apple-system, BlinkMacSystemFont,  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.04rem;
 }
 
 * {
