@@ -1,0 +1,69 @@
+.sliderCard {
+  border-radius: 5px;
+  height: 320px;
+  width: 100%;
+  border: 2px solid #eee;
+  overflow: hidden;
+  background-color: #fff;
+}
+.inner {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.thumb {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+.thumb a {
+  display: block;
+}
+.thumb a img {
+  width: 100%;
+}
+.info {
+  padding: 10px 10px;
+  text-align: left;
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info h4 {
+  font-size: 0.9rem;
+}
+.info .priceInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info .priceInfo .price {
+  font-weight: bold;
+  color: #1d3557;
+}
+.info .priceInfo .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #1d3557;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+.info .priceInfo .button div {
+  padding-left: 3px;
+}
+.info .priceInfo .button:hover {
+  color: #fff;
+  background-color: #ffb703;
+}
